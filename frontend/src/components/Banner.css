@@ -1,0 +1,39 @@
+/* src/components/Banner.css */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner-subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.shop-now {
+    background-color: #ffffff;
+    color: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: #feb47b;
+    color: white;
+    transform: scale(1.05);
+}
